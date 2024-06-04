@@ -7,8 +7,8 @@
     z-index: 1;
     left: 0;
     right: 0;
-    background-color: blue;
-    background-color: rgb(0, 0, 255, 0.9);
+    /* background-color: rgb(227, 207, 225); */
+    background-color: rgb(227, 207, 225, 0.9);
     /* så den bliver inde for skærmen */
     overflow: hidden;
     /* slide ned effekt. transition */
@@ -29,7 +29,7 @@ margin-top: 30px;
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: burlywood;
+    color: rgb(255, 81, 37);
     display: block;
     /* transsition effekt med hover */
     transition: 0.3s;
@@ -37,7 +37,7 @@ margin-top: 30px;
 
 /* hover effekt på navigations link */
 .overlay a:hover, .overlay a:focus {
-    color: aqua;
+    color: rgb(246, 51, 191);
 }
 
 /* position til luk knappen */
