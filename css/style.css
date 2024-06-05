@@ -1,6 +1,21 @@
 body{
     background-color: rgb(249, 237, 223);
 }
+header{
+    padding: 2% 5% 2% 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(190, 30, 45);
+}
+span:hover{
+    color: rgb(26, 62, 83); 
+}
+header a{
+    text-decoration: none;
+    color: rgb(190, 30, 45);
+}
+a:hover{
+    color: rgb(26, 62, 83); 
+}
 footer{
     text-align: center;
     color: rgb(190, 30, 45);
@@ -70,10 +85,14 @@ margin-top: 30px;
         right: 35px;
     }
 main{padding: 0% 5% 5% 5%;}
+#mobil{display: block;}
+#computer{display: none;}
+
 }
 
-@media screen and (min-width: 450px){
+@media screen and (min-width: 451px){
     main{padding: 0% 5% 5% 5%;}
-    
+    #compuer{display: block;}
+    #mobil{ display: none;}
 }
 
