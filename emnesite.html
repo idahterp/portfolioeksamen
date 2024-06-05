@@ -3,10 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/java.js"></script>
     <title>Document</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <!-- overlay -->
+      <div id="myNav" class="overlay">
+        <!-- knap til at lukke overlay navigationen -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <!-- navigation (overlay content)-->
+        <div class="overlay-content">
+          <a href="website.html">Tema 2</a>
+
+          <a href="emnesite.html">Tema 3</a>
+
+          <a href="spil.html">Tema 4</a>
+          <a href="passion.html">Tema 5 opgave 1</a>
+          <a href="virksomhedsite.html">Tema 5 opgave 2</a>
+        </div>
+      </div>
+      <!-- knab til at vise overlay navigationen -->
+      <span onclick="openNav()">Projekter</span>
+    </header>
     <main></main>
     <footer></footer>
   </body>

@@ -1,6 +1,14 @@
-img{
-    width: 100%;
-    height: auto;
+body{
+    background-color: rgb(249, 237, 223);
+}
+footer{
+    text-align: center;
+    color: rgb(253, 108, 41);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(253, 108, 41);
 }
 .overlay{
     height: 100%;
@@ -53,12 +61,18 @@ margin-top: 30px;
 }
 
 /* når skærmen er mindre en 450pixels, ændre font-size og positionen på luk kanppen så de ikke over lapper */
-@media screen  and (max-height: 450px){
+@media screen  and (max-width: 450px){
     .overlay a{font-size: 20px;}
     .overlay .closebtn{
         font-size: 40px;
         top: 15px;
         right: 35px;
     }
+main{padding: 0% 5% 5% 5%;}
+}
+
+@media screen and (min-width: 450px){
+    main{padding: 0% 5% 5% 5%;}
     
 }
+
