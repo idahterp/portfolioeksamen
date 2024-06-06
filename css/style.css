@@ -31,6 +31,7 @@ p{
     font-size: 18px;
 line-height: 1.5em;
 }
+
 .overlay{
     height: 100%;
     width: 0;
@@ -93,11 +94,18 @@ main{padding: 0% 5% 5% 5%;}
 #mobil{display: block;}
 #computer{display: none;}
 
+
 }
 
 @media screen and (min-width: 451px){
     main{padding: 0% 5% 5% 5%;}
     #compuer{display: block;}
     #mobil{ display: none;}
+  .boks{
+    background-color:rgb(190, 30, 45) ;
+    border-radius: 2%;
+    margin: 20%;
+    padding: 10%;
+}  
 }
 
