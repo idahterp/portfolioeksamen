@@ -3,11 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/java.js"></script>
+    <title>Spil</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header>
+      <!-- overlay -->
+      <div id="myNav" class="overlay">
+        <!-- knap til at lukke overlay navigationen -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <!-- navigation (overlay content)-->
+        <div class="overlay-content">
+          <a href="website.html">Tema 2</a>
+
+          <a href="emnesite.html">Tema 3</a>
+
+          <a href="spil.html">Tema 4</a>
+          <a href="passion.html">Tema 5 opgave 1</a>
+          <a href="virksomhedsite.html">Tema 5 opgave 2</a>
+        </div>
+      </div>
+      <!-- knab til at vise overlay navigationen -->
+      <span onclick="openNav()">Projekter</span>
+    </header>
+    <main>
+      <h1>Spil</h1>
+      <h2>Tema</h2>
+      <h3>Opgave</h3>
+      <h4>Spil idé</h4>
+      <h4>Design</h4>
+      <h4>Kodet spil</h4>
+      <p></p>
+      <h4>Se det færdige produkt her:</h4>
+      <a href="https://idaholmterp.dk/kea/04_animation/website/index.html"
+        >Website</a
+      >
+    </main>
     <footer></footer>
   </body>
 </html>

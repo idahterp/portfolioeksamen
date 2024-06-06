@@ -4,11 +4,6 @@
     gap: 1em;
   }
 
-.grid_1-1{
-display: grid;
-grid-template-columns: 1fr 1fr ;
-gap: 1em;
-}
 
 img{
     width: 100%;
@@ -26,5 +21,14 @@ img{
         grid-template-columns: 1fr 2fr ;
         gap: 1em;
       }
-    
+
+      /* .potrat{
+        grid-column: 3/4;
+      } */
+
+      .grid_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 1em;
+        }
 }

@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(249, 237, 223);
+    background-color: rgb(246, 234, 219);
 }
 header{
     padding: 2% 5% 2% 5%;
@@ -25,6 +25,7 @@ footer{
 h1{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(190, 30, 45);
+    text-align: center;
 }
 .overlay{
     height: 100%;
