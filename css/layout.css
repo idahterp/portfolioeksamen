@@ -31,4 +31,7 @@ img{
         grid-template-columns: 1fr 1fr ;
         gap: 1em;
         }
+        .temaopgave{
+          margin: 0% 25% 0% 25%;
+        }
 }

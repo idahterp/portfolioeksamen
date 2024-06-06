@@ -27,6 +27,10 @@ h1{
     color: rgb(190, 30, 45);
     text-align: center;
 }
+p{
+    font-size: 18px;
+line-height: 1.5em;
+}
 .overlay{
     height: 100%;
     width: 0;
