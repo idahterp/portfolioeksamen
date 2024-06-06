@@ -4,11 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/java.js"></script>
+    <title>virksomhedsite</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <div id="myNav" class="overlay">
+        <!-- knap til at lukke overlay navigationen -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <!-- navigation (overlay content)-->
+        <div class="overlay-content">
+          <a href="website.html">Tema 2</a>
+
+          <a href="emnesite.html">Tema 3</a>
+
+          <a href="spil.html">Tema 4</a>
+          <a href="passion.html">Tema 5 opgave 1</a>
+          <a href="virksomhedsite.html">Tema 5 opgave 2</a>
+        </div>
+      </div>
+      <!-- knab til at vise overlay navigationen -->
+      <span onclick="openNav()">Projekter</span>
+    </header>
+    <main>
+      <h1>virksomhedsite</h1>
+      <h2>Tema</h2>
+      <h3>Opgave</h3>
+    </main>
+    <footer class="grid_1-1-1">
+      <p>Portfolioeksamen</p>
+      <p>2024</p>
+      <p>Ida Holm Terp</p>
+    </footer>
   </body>
 </html>
