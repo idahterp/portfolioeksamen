@@ -8,3 +8,21 @@ padding: 5%;}
     }
 .flex{display: flex;
 padding: 5%;}
+
+/* .og{
+    background-image: url("img/overskrift.webp");
+    background-size: cover;
+    display: flex;
+} */
+.og{
+    height: 10vh;
+    background-image: url(../img/overskrift.webp); /* Sti til dit billede */
+    background-size: cover; /* Sørger for, at billedet dækker hele containeren */
+    background-position: center; /* Centrerer billedet */
+    background-repeat: no-repeat; /* Forhindrer billedet i at gentage sig */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}

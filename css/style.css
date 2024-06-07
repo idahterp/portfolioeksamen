@@ -28,7 +28,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(190, 30, 45);
     text-align: center;
-    font-size: 32px;
+    font-size: 36px;
 }
 p{
     font-size: 18px;
@@ -40,13 +40,22 @@ line-height: 1.5em;
    
 }
 .overskrift{
-    bac
-}
+    height: 25vh;
+    background-image: url(../img/overskrift.webp); /* Sti til dit billede */
+    background-size: cover; /* Sørger for, at billedet dækker hele containeren */
+    background-position: center; /* Centrerer billedet */
+    background-repeat: no-repeat; /* Forhindrer billedet i at gentage sig */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}  
 .baggrund{
     background-color: rgb(190, 30, 45, 0.2);
      padding: 1% 5% 2% 5%;
 }
-.baggrund{
+.baggrund1{
     padding: 1% 5% 2% 5%;
 }
 
@@ -103,12 +112,12 @@ margin-top: 30px;
     font-size: 60px;
 }
 
-.boks{
+/* .boks{
     background-color:rgb(190, 30, 45) ;
     border-radius: 2%;
     margin: 20px;
     padding: 10px;
-}  
+}   */
 /* når skærmen er mindre en 450pixels, ændre font-size og positionen på luk kanppen så de ikke over lapper */
 @media screen  and (max-width: 450px){
     .overlay a{font-size: 20px;}
