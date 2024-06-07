@@ -40,8 +40,8 @@ line-height: 1.5em;
    
 }
 .overskrift{
-    height: 25vh;
-    background-image: url(../img/overskrift.webp); /* Sti til dit billede */
+    height: 10vh;
+    background-image: url(../img/overskrift_3.webp); /* Sti til dit billede */
     background-size: cover; /* Sørger for, at billedet dækker hele containeren */
     background-position: center; /* Centrerer billedet */
     background-repeat: no-repeat; /* Forhindrer billedet i at gentage sig */
