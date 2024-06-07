@@ -1,0 +1,10 @@
+body{margin: 0;}
+.baggrund{background-color: antiquewhite;
+padding: 5%;}
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1em;
+    }
+.flex{display: flex;
+padding: 5%;}

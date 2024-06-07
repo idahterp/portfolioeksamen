@@ -1,5 +1,6 @@
 body{
     background-color: rgb(246, 234, 219);
+    margin: 0;
 }
 header{
     padding: 2% 5% 2% 5%;
@@ -27,15 +28,31 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(190, 30, 45);
     text-align: center;
+    font-size: 32px;
 }
 p{
     font-size: 18px;
 line-height: 1.5em;
 }
 
-.baggrund{
-    background-color: aquamarine;
+.felx{
+    display: flex;
+   
 }
+.overskrift{
+    bac
+}
+.baggrund{
+    background-color: rgb(190, 30, 45, 0.2);
+     padding: 1% 5% 2% 5%;
+}
+.baggrund{
+    padding: 1% 5% 2% 5%;
+}
+
+/* .baggrund{
+    background-color: aquamarine;
+} */
 .overlay{
     height: 100%;
     width: 0;
@@ -100,7 +117,7 @@ margin-top: 30px;
         top: 15px;
         right: 35px;
     }
-main{padding: 0% 5% 5% 5%;}
+/* main{padding: 0% 5% 5% 5%;} */
 #mobil{display: block;}
 #computer{display: none;}
 
@@ -108,7 +125,7 @@ main{padding: 0% 5% 5% 5%;}
 }
 
 @media screen and (min-width: 451px){
-    main{padding: 0% 5% 5% 5%;}
+    /* main{padding: 0% 5% 5% 5%;} */
     #compuer{display: block;}
     #mobil{ display: none;}
   
