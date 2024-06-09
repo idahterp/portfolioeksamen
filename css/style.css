@@ -5,12 +5,16 @@
 body{
     background-color: rgb(250, 241, 230);
     margin: 0;
+    padding-top: 6%;
 }
 header{
-    padding: 2% 10% 0% 10%;
+    position: fixed;
+    background-color: rgb(250, 241, 230);
+    padding: 1% 10% 0% 10%;
     font-family: plantagente;
     font-size: x-large;
     color: rgb(190, 30, 45);
+    top: 0;
 }
 span:hover{
     color: rgb(57, 73, 157); 
@@ -46,17 +50,17 @@ max-width: 65ch;
     display: flex;
    
 }
-.overskrift{
+/* .overskrift{
     height: 10vh;
     background-image: url(../img/overskrift_3.webp); /* Sti til dit billede */
-    background-size: cover; /* Sørger for, at billedet dækker hele containeren */
-    background-position: center; /* Centrerer billedet */
-    background-repeat: no-repeat; /* Forhindrer billedet i at gentage sig */
-    display: flex;
+    /* background-size: cover; /* Sørger for, at billedet dækker hele containeren */
+    /* background-position: center; Centrerer billedet */
+    /* background-repeat: no-repeat; Forhindrer billedet i at gentage sig */
+    /* display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px;
-}  
+}    */
 .baggrund{
     background-color: rgb(190, 30, 45, 0.1);
      padding: 1% 8% 2% 8%;
@@ -88,7 +92,7 @@ text-align: center;
     list-style-image: url('../img/icon.webp');
     }
 
-.logo{ padding: 0% 20% 0% 20%;}
+.logo{ padding: 0% 25% 0% 25%;}
 
 
 .overlay{
@@ -159,7 +163,9 @@ margin-top: 30px;
 #mobil{display: block;}
 #computer{display: none;}
 .ommig{text-align: right;}
+header{font-size: larger;}
 }
+
 
 @media screen and (min-width: 451px){
     /* main{padding: 0% 5% 5% 5%;} */
