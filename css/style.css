@@ -66,11 +66,12 @@ max-width: 65ch;
 .website{
     text-decoration: none;
     background-color: antiquewhite;
-    padding: 2%;
+    padding: 2% 2% 0% 2%;
     border-radius: 8px;
   color: rgb(190, 30, 45);
  font-size: xx-large;
  font-family: plantagente;
+text-align: center;
 }
 /* .baggrund{
     background-color: aquamarine;
