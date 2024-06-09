@@ -3,13 +3,13 @@
     src: url(../font/Plantagenet\ Cherokee.ttf);
   }
 body{
-    background-color: rgb(250, 241, 230);
+    background-color: rgb(247, 241, 234);
     margin: 0;
     padding-top: 6%;
 }
 header{
     position: fixed;
-    background-color: rgb(250, 241, 230);
+    background-color: rgb(247, 241, 234);
     padding: 1% 10% 0% 10%;
     font-family: plantagente;
     font-size: x-large;
@@ -36,7 +36,7 @@ footer{
 h1{
     font-family: plantagente;
     color: rgb(57, 73, 157);
-    text-align: center;
+    /* text-align: center; */
     font-size: 40px;
     /* text-shadow: 2px 2px rgb(57, 73, 157); */
 }
@@ -93,7 +93,6 @@ text-align: center;
     }
 
 .logo{ padding: 0% 25% 0% 25%;}
-
 
 .overlay{
     height: 100%;
