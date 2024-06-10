@@ -150,8 +150,9 @@ ul.icon {
 
  .website{
         text-decoration: none;
-        background-color: antiquewhite;
-        padding: 2% 2% 0% 2%;
+        background-color: rgb(247, 241, 234);
+        border: solid 1px rgb(57, 73, 157);
+        padding: 2% 2% 2% 2%;
         border-radius: 8px;
       color: rgb(190, 30, 45);
      font-size: xx-large;
