@@ -26,3 +26,53 @@ padding: 5%;}
     text-align: center;
     padding: 10px;
 }
+
+.overlay{
+    height: 100%;
+    width: 0;
+    /* bliver på plads */
+    position: fixed; 
+    /* sidder på toppen */
+    z-index: 1;
+    left: 0;
+    right: 0;
+    /* background-color: rgb(227, 207, 225); */
+    background-color: rgb(247, 241, 234);
+    /* så den bliver inde for skærmen */
+    overflow: hidden;
+    /* slide ned effekt. transition */
+    transition: 0.5s;
+}
+
+/* position til indholdet inde i overlay */
+.overlay-content{
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+
+/* navigations link inde i overlay */
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 32px;
+    color: rgb(190, 30, 45);
+    display: block;
+    /* transsition effekt med hover */
+    transition: 0.3s;
+}
+
+/* hover effekt på navigations link */
+.overlay a:hover, .overlay a:focus {
+    color: rgb(57, 73, 157);
+}
+
+/* position til luk knappen */
+.overlay .closebtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
