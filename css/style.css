@@ -89,7 +89,7 @@ a:hover{
 
 .logo{padding: 0% 25% 0% 25%;}
 
-.ommig{text-align: right;}
+header:last-child{text-align: right;}
 
 .baggrund{
     background-color: rgb(190, 30, 45, 0.1);
