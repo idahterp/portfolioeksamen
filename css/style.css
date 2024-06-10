@@ -89,7 +89,8 @@ a:hover{
 
 .logo{padding: 0% 25% 0% 25%;}
 
-header:last-child{text-align: right;}
+.ommig{
+    text-align: right;}
 
 .baggrund{
     background-color: rgb(190, 30, 45, 0.1);
@@ -165,7 +166,7 @@ footer{
 }
 
 /* når skærmen er mindre en 450pixels, ændre font-size og positionen på luk kanppen så de ikke over lapper */
-@media (max-width: 450px){
+@media (max-width: 800px){
     .overlay a{font-size: 14.5px;}
     .overlay .closebtn{
         font-size: 40px;
@@ -179,7 +180,7 @@ header{font-size: larger;}
 .baggrund2{ padding: 1% 2% 2% 2%;}
 }
 
-@media (min-width: 451px){
+@media (min-width: 800px){
     /* main{padding: 0% 5% 5% 5%;} */
     #compuer{display: block;}
     #mobil{ display: none;}
@@ -187,6 +188,7 @@ header{font-size: larger;}
 
 @media (min-width: 1500px){
   p{font-size: 28px;}  
+  ul li{font-size: x-large;}
   .baggrund2 p{font-size: 28px;}
 }
 

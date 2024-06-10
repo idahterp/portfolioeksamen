@@ -10,29 +10,18 @@ img{
     padding-top: 2%;
 }
 
-.ommig{
-    text-align: right;
-}
-
-
-@media (min-width: 600px){
+@media (min-width: 800px){
     .grid_1-2 {
         display: grid;
         grid-template-columns: 1fr 2fr ;
         gap: 1em;
       }
 
-      /* .potrat{
-        grid-column: 3/4;
-      } */
-
       .grid_1-1{
         display: grid;
         grid-template-columns: 1fr 1fr ;
         gap: 3em;
         }
-        /* .temaopgave{
-          margin: 0% 25% 0% 25%;
-        } */
+        
         
 }
