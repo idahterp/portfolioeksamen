@@ -103,6 +103,8 @@ a:hover{
     font-size: 16px;
 }
 
+.container{margin: 0% 10% 0% 10%;}
+
 h1{
     font-family: plantagente;
     color: rgb(57, 73, 157);
@@ -116,6 +118,8 @@ h2{font-family: plantagente;
 }
 
 h3{font-family: plantagente; font-size: 26px;}
+
+h4{font-family: plantagente; font-size: 22px;}
 
 p{
     font-size: 16px;
@@ -136,8 +140,9 @@ figcaption{color:rgb(190, 30, 45) ;}
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);}
 
+ul li{font-size: large;}
 ul.icon {
-    list-style-image: url('../img/icon.webp');
+    list-style-image: url('../img/icon.svg');
     }
 
  .website{
@@ -170,6 +175,8 @@ footer{
 
 header{font-size: larger;}
 .baggrund2{ padding: 1% 2% 2% 2%;}
+
+.ommigindex{text-align: right;}
 }
 
 @media (min-width: 451px){
