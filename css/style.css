@@ -2,11 +2,13 @@
     font-family: plantagente;
     src: url(../font/Plantagenet\ Cherokee.ttf);
   }
+
 body{
     background-color: rgb(247, 241, 234);
     margin: 0;
     padding-top: 6%;
 }
+
 header{
     position: fixed;
     background-color: rgb(247, 241, 234);
@@ -16,98 +18,12 @@ header{
     color: rgb(190, 30, 45);
     top: 0;
 }
-span:hover{
-    color: rgb(57, 73, 157); 
-}
+
 header a{
     text-decoration: none;
     color: rgb(190, 30, 45);
 }
-a:hover{
-    color: rgb(57, 73, 157); 
-}
 
-footer{
-    text-align: center;
-    color: rgb(190, 30, 45);
-    font-family:plantagente;
-}
-
-h1{
-    font-family: plantagente;
-    color: rgb(57, 73, 157);
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 0;
-    /* text-shadow: 2px 2px rgb(57, 73, 157); */
-}
-h2{font-family: plantagente;
-    font-size: 34px;
-}
-h3{font-family: plantagente; font-size: 26px;}
-p{
-    font-size: 16px;
-line-height: 1.7em;
-max-width: 65ch;
-}
-
-.felx{
-    display: flex;
-   
-}
-/* .overskrift{
-    height: 10vh;
-    background-image: url(../img/overskrift_3.webp); /* Sti til dit billede */
-    /* background-size: cover; /* Sørger for, at billedet dækker hele containeren */
-    /* background-position: center; Centrerer billedet */
-    /* background-repeat: no-repeat; Forhindrer billedet i at gentage sig */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-}    */
-.baggrund{
-    background-color: rgb(190, 30, 45, 0.1);
-     padding: 1% 10% 2% 10%;
-}
-.baggrund1{
-    padding: 1% 10% 2% 10%;
-}
-
-.baggrund2{padding: 0% 23% 2% 23%;}
-
-.baggrund2 p{max-width: 80ch;
-    font-size: 16px;
-}
-
-.website{
-    text-decoration: none;
-    background-color: antiquewhite;
-    padding: 2% 2% 0% 2%;
-    border-radius: 8px;
-  color: rgb(190, 30, 45);
- font-size: xx-large;
- font-family: plantagente;
-text-align: center;
-}
-/* .baggrund{
-    background-color: aquamarine;
-} */
-.arrow{ border: solid rgb(190, 30, 45);
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 5px;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);}
-
- ul.icon {
-    list-style-image: url('../img/icon.webp');
-    }
-
-.logo{ padding: 0% 25% 0% 25%;}
-
-
-figcaption{color:rgb(190, 30, 45) ;}
 .overlay{
     height: 100%;
     width: 0;
@@ -157,13 +73,89 @@ margin-top: 30px;
     right: 45px;
     font-size: 60px;
 }
+
+span:hover{
+    color: rgb(57, 73, 157); 
+}
+
+a:hover{
+    color: rgb(57, 73, 157); 
+}
+
+.logo{ padding: 0% 25% 0% 25%;}
+
 .ommig{text-align: right;}
-/* .boks{
-    background-color:rgb(190, 30, 45) ;
-    border-radius: 2%;
-    margin: 20px;
-    padding: 10px;
-}   */
+.ommigindex{grid-column: 14/15;}
+
+.baggrund{
+    background-color: rgb(190, 30, 45, 0.1);
+     padding: 1% 10% 2% 10%;
+}
+
+.baggrund1{
+    padding: 1% 10% 2% 10%;
+}
+
+.baggrund2{padding: 0% 23% 2% 23%;}
+
+.baggrund2 p{max-width: 80ch;
+    font-size: 16px;
+}
+
+h1{
+    font-family: plantagente;
+    color: rgb(57, 73, 157);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+h2{font-family: plantagente;
+    font-size: 34px;
+}
+
+h3{font-family: plantagente; font-size: 26px;}
+
+p{
+    font-size: 16px;
+line-height: 1.7em;
+max-width: 65ch;
+}
+
+.felx{
+    display: flex; 
+}
+
+figcaption{color:rgb(190, 30, 45) ;}
+
+.arrow{ border: solid rgb(190, 30, 45);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);}
+
+ul.icon {
+    list-style-image: url('../img/icon.webp');
+    }
+
+ .website{
+        text-decoration: none;
+        background-color: antiquewhite;
+        padding: 2% 2% 0% 2%;
+        border-radius: 8px;
+      color: rgb(190, 30, 45);
+     font-size: xx-large;
+     font-family: plantagente;
+    text-align: center;
+    }
+
+footer{
+    text-align: center;
+    color: rgb(190, 30, 45);
+    font-family:plantagente;
+}
+
 /* når skærmen er mindre en 450pixels, ændre font-size og positionen på luk kanppen så de ikke over lapper */
 @media (max-width: 450px){
     .overlay a{font-size: 20px;}
@@ -172,7 +164,6 @@ margin-top: 30px;
         top: 15px;
         right: 35px;
     }
-/* main{padding: 0% 5% 5% 5%;} */
 #mobil{display: block;}
 #computer{display: none;}
 
@@ -181,14 +172,10 @@ header{font-size: larger;}
 
 }
 
-
 @media (min-width: 451px){
     /* main{padding: 0% 5% 5% 5%;} */
     #compuer{display: block;}
     #mobil{ display: none;}
-
-    
-  
 }
 
 @media (min-width: 1500px){
