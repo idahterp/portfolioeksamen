@@ -178,7 +178,8 @@ header{font-size: larger;}
 }
 
 @media (min-width: 1500px){
-  p{font-size: 30px;}  
+  p{font-size: 28px;}  
+  .baggrund2 p{font-size: 28px;}
 }
 
 
