@@ -86,7 +86,7 @@ a:hover{
 .logo{padding: 0% 25% 0% 25%;}
 
 .ommig{text-align: right;}
-.ommigindex{grid-column: 14/15;}
+.ommigindex{margin: 0% 0% 0% 1000%;}
 
 .baggrund{
     background-color: rgb(190, 30, 45, 0.1);
@@ -100,10 +100,11 @@ a:hover{
 .baggrund2{padding: 0% 23% 2% 23%;}
 
 .baggrund2 p{max-width: 80ch;
-    font-size: 16px;
+    font-size: 18px;
 }
 
-.container{margin: 0% 10% 0% 10%;}
+.container{margin: -7% 8% 0% 8%;}
+.container1{margin: 5% 2% 0% 2%;}
 
 h1{
     font-family: plantagente;
@@ -122,7 +123,7 @@ h3{font-family: plantagente; font-size: 26px;}
 h4{font-family: plantagente; font-size: 22px;}
 
 p{
-    font-size: 16px;
+    font-size: 18px;
 line-height: 1.7em;
 max-width: 65ch;
 }
@@ -164,7 +165,7 @@ footer{
 
 /* når skærmen er mindre en 450pixels, ændre font-size og positionen på luk kanppen så de ikke over lapper */
 @media (max-width: 450px){
-    .overlay a{font-size: 20px;}
+    .overlay a{font-size: 14.5px;}
     .overlay .closebtn{
         font-size: 40px;
         top: 15px;
@@ -175,8 +176,6 @@ footer{
 
 header{font-size: larger;}
 .baggrund2{ padding: 1% 2% 2% 2%;}
-
-.ommigindex{text-align: right;}
 }
 
 @media (min-width: 451px){
