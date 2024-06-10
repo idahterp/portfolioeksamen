@@ -94,6 +94,8 @@ text-align: center;
 
 .logo{ padding: 0% 25% 0% 25%;}
 
+
+figcaption{color:rgb(190, 30, 45) ;}
 .overlay{
     height: 100%;
     width: 0;
