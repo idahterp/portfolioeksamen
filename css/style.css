@@ -36,7 +36,7 @@ footer{
 h1{
     font-family: plantagente;
     color: rgb(57, 73, 157);
-    /* text-align: center; */
+    text-align: center;
     font-size: 40px;
     /* text-shadow: 2px 2px rgb(57, 73, 157); */
 }
@@ -68,6 +68,13 @@ max-width: 65ch;
 .baggrund1{
     padding: 1% 10% 2% 10%;
 }
+
+.baggrund2{padding: 1% 25% 2% 25%;}
+
+.baggrund2 p{font-size: 16px;
+line-height: 1.5em;
+max-width: 75ch;}
+
 .website{
     text-decoration: none;
     background-color: antiquewhite;
@@ -165,6 +172,8 @@ margin-top: 30px;
 #computer{display: none;}
 
 header{font-size: larger;}
+.baggrund2{ padding: 1% 2% 2% 2%;}
+
 }
 
 
@@ -172,6 +181,8 @@ header{font-size: larger;}
     /* main{padding: 0% 5% 5% 5%;} */
     #compuer{display: block;}
     #mobil{ display: none;}
+
+    
   
 }
 

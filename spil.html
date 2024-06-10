@@ -35,63 +35,48 @@
     <main>
       <section class="baggrund">
         <h1>Spil</h1>
-        <div class="grid_1-1">
+        <div class="baggrund2">
           <div>
-            <h2>Tema</h2>
-            <p>
-              I dette tema blev vi introduceret til programmeringssproget
-              JavaScript, som kan bruges til at kode dynamiske websites. I dette
-              tema brugte vi JavaScript sammen med CSS-animationer til at skabe
-              et lille spil. Formålet med dette tema var, at vi begynder at
-              arbejde professionelt med formgivning af grafiske elementer. Vi
-              analyserede spildesign og undersøgte, hvordan man engagerer
-              brugere gennem teori og konventioner inden for UI-elementer,
-              figurelementer, baggrundsdesign og kompositionsteknikker. Vi
-              udviklede vores eget spildesign efter moderne konventioner og
-              rentegner grafikken til spillet i Adobe Illustrator. Gennem
-              arbejdet med vores eget spil lærer vi at arbejde med aktivitets-
-              og statemachine-diagrammer, som bruges til at planlægge det mere
-              komplicerede interaktive flow.
-            </p>
-          </div>
-          <div>
-            <h3>Opgave</h3>
-            <p>
-              I denne opgave skulle vi lave et spil som skulle have et koncept
-              og en idé, som vi selv fandt frem til, og selv skulle designe alle
-              elementer og kode spillet helt fra bunden. Dette skulle gøre ved
-              brug af CSS-animation og JavaScript.
-            </p>
-            <!-- <p>
-              I opgave X var vores mål at lave et redesign for en forbedret
-              brugeroplevelse af løsning Y (viden). Min rolle var [indsæt din
-              hovedrolle og ansvarsområder], som jeg udførte [specifik måde med
-              specifikke værktøjer eller metoder] (færdighed). Det lærte mig
-              vigtigheden af [værktøj/metode], som jeg senere brugte i
-              Opgavebeskrivelse Portfolioeksamen Forår 2024 Side 2 af 3
-              [fremtidigt projekt eller videreudvikling]. Udviklingsprocessen
-              kan ses i [illustrationer eller visualiseringer] i figur 1
-              (kompetence). Det sværeste var [svar], som jeg derfor var ekstra
-              opmærksom på at blive bedre til i [øvelse/opgave/projekt] (link)
-              sidst på semesteret.
-            </p> -->
+            <div>
+              <h2>Tema</h2>
+              <p>
+                I dette tema blev vi introduceret til programmeringssproget
+                JavaScript, som kan bruges til at kode dynamiske websites. I
+                dette tema brugte vi JavaScript sammen med CSS-animationer til
+                at skabe et lille spil. Formålet med dette tema var, at vi
+                begynder at arbejde professionelt med formgivning af grafiske
+                elementer. Vi analyserede spildesign og undersøgte, hvordan man
+                engagerer brugere gennem teori og konventioner inden for
+                UI-elementer, figurelementer, baggrundsdesign og
+                kompositionsteknikker. Vi udviklede vores eget spildesign efter
+                moderne konventioner og rentegner grafikken til spillet i Adobe
+                Illustrator. Gennem arbejdet med vores eget spil lærer vi at
+                arbejde med aktivitets- og statemachine-diagrammer, som bruges
+                til at planlægge det mere komplicerede interaktive flow.
+              </p>
+            </div>
+            <div>
+              <h3>Opgave</h3>
+              <p>
+                I denne opgave skulle vi lave et spil som skulle have et koncept
+                og en idé, som vi selv fandt frem til, og selv skulle designe
+                alle elementer og kode spillet helt fra bunden. Dette skulle
+                gøre ved brug af CSS-animation og JavaScript.
+              </p>
+            </div>
           </div>
         </div>
       </section>
       <section class="baggrund1">
-        <!-- <div class="grid_1-1"> -->
-        <div>
-          <h3>Metode</h3>
-          <h4>Spil idé</h4>
-          <p>
-            For at finde ud af hvordan mit spil skulle se ud, lavede jeg
-            forskellige øvelser, brainstorm og moodbords. Min idé var at lave et
-            spil med køer og alien, som også referere til en del af vores
-            popkultur.
-          </p>
-          <!-- <div class="grid_1-1"> -->
+        <div class="grid_1-1">
           <div>
-            <!-- <h4>Kodet spil</h4> -->
+            <h3>Metode</h3>
+            <p>
+              For at finde ud af hvordan mit spil skulle se ud, lavede jeg
+              forskellige øvelser, brainstorm og moodbords. Min idé var at lave
+              et spil med køer og alien, som også referere til en del af vores
+              popkultur.
+            </p>
             <p>
               Efter at havde fundet en idé til spillet med gode og dårlige
               elementer, lavede jeg aktivitetdiagram og state machine-diagram
@@ -100,29 +85,38 @@
               dermed hvordan det skal bygges op i HTML, CSS og JavaScript.
             </p>
           </div>
+          <div>
+            <img
+              src="img/statemachinediagram.webp"
+              alt="statemachine-diagrammer"
+            />
+            <figcaption>State machine-diagram</figcaption>
+          </div>
+        </div>
+      </section>
+      <section class="baggrund1">
+        <div class="grid_1-1">
+          <div>
+            <p>
+              Ud fra aktivitetdiagrammet og statemachine-diagrammet begyndt jeg
+              at progræmere spillet. For at få spil elementerne til at besvæge
+              sig brugte jeg CSS-animation. For at få elementerne til at falde
+              fra et tilfældigt sted på skærmen har brugt brugt functionen
+              'rendNum' i JavaScript. Derefter gav jeg mine spil elementer
+              classen 'rndFaldPos'. Dette gøre ved at lave et antal
+              faldpositioner i CSS, i dette tilfælde 7 som sættes ind
+              functionen. til at få tiden til at løbe ud, få eller miste point
+              samt tænde og slukke for musikken mm.
+            </p>
+          </div>
           <div class="grid_1-1">
-            <!-- <img src="img/aktivitetdiagram.webp" alt="aktivitetdiagram" /> -->
+            <img src="img/faldpos.webp" alt="" />
             <div>
-              <img
-                src="img/statemachinediagram.webp"
-                alt="statemachine-diagrammer"
-              />
-              <figcaption>State machine-diagram</figcaption>
+              <img src="img/function.rndNum.webp" alt="" />
+              <img src="img/rndNum.webp" alt="" />
             </div>
           </div>
-          <!-- </div> -->
         </div>
-        <div>
-          <h4>Kode</h4>
-          <p>
-            Ud fra aktivitetdiagrammet og statemachine-diagrammet begyndt jeg at
-            progræmere spillet. For at få spil elementerne til at besvæge sig
-            brugte jeg CSS-animation. Derudover har jeg brugt JavaScript til at
-            få tiden til at løbe ud, få eller miste point samt tænde og slukke
-            for musikken mm.
-          </p>
-        </div>
-        <!-- </div> -->
       </section>
       <section class="baggrund">
         <div class="grid_1-1">
