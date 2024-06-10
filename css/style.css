@@ -80,9 +80,10 @@ span:hover{
 
 a:hover{
     color: rgb(57, 73, 157); 
+
 }
 
-.logo{ padding: 0% 25% 0% 25%;}
+.logo{padding: 0% 25% 0% 25%;}
 
 .ommig{text-align: right;}
 .ommigindex{grid-column: 14/15;}
