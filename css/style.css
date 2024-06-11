@@ -64,7 +64,10 @@ margin-top: 30px;
 
 /* hover effekt på navigations link */
 .overlay a:hover, .overlay a:focus {
-    color: rgb(57, 73, 157);
+    color: rgb(190, 30, 45, 0.5);
+}
+
+.overlay a:visited{color: rgb(57, 73, 157);
 }
 
 /* position til luk knappen */
