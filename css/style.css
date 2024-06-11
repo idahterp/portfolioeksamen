@@ -94,7 +94,7 @@ a:hover{
 
 .baggrund{
     background-color: rgb(190, 30, 45, 0.1);
-     padding: 1% 10% 2% 10%;
+     padding: 1% 10% 1% 10%;
 }
 
 .baggrund1{
@@ -122,15 +122,16 @@ h2{font-family: plantagente;
     font-size: 34px;
 }
 
-h3{font-family: plantagente; font-size: 26px;}
-
-h4{font-family: plantagente; font-size: 22px;}
+h3{font-family: plantagente; font-size: 26px; text-align: center;}
 
 p{
     font-size: 18px;
 line-height: 1.7em;
 max-width: 65ch;
 }
+
+ol{list-style: none; padding-left: 0; text-align: center; font-size: larger; line-height: 140%;}
+ol li:nth-child(odd) {font-weight: bold;}
 
 .felx{
     display: flex; 

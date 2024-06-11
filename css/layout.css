@@ -1,4 +1,4 @@
-.grid_1-1-1 {
+.grid_1-1-1f {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
@@ -11,17 +11,20 @@ img{
 }
 
 @media (min-width: 800px){
-    .grid_1-2 {
-        display: grid;
-        grid-template-columns: 1fr 2fr ;
-        gap: 1em;
-      }
 
+  .grid_1-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    gap: 3em;
+    }
       .grid_1-1{
         display: grid;
         grid-template-columns: 1fr 1fr ;
         gap: 3em;
         }
-        
-        
+        .grid_1-1-1 {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 1em;
+        }
 }
