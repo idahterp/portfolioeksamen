@@ -83,6 +83,9 @@ span:hover{
     color: rgb(57, 73, 157); 
 }
 
+.closebtn{cursor: pointer;}
+#openNavBtn{cursor: pointer;}
+
 a:hover{
     color: rgb(57, 73, 157); 
 
@@ -125,7 +128,7 @@ h2{font-family: plantagente;
 
 h3{font-family: plantagente; font-size: 26px; text-align: center ;}
 
-h4{font-family: plantagente; font-size: 22px;}
+h4{font-family: plantagente; font-size: 22px; margin-bottom: 1%;}
 p{
     font-size: 18px;
 line-height: 1.7em;
@@ -138,26 +141,29 @@ ol li:nth-child(odd) {font-weight: bold;}
 .arrow{ border: solid rgb(190, 30, 45);
     border-width: 0 3px 3px 0;
     display: inline-block;
+    margin-top: 5%;
     padding: 5px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);}
 
-ul li{font-size: large;}
-ul.icon {
-    list-style-image: url('../img/icon.svg');
-    }
-
- .website{
+.website{
         text-decoration: none;
         background-color: rgb(247, 241, 234);
         border: solid 1px rgb(57, 73, 157);
-        padding: 2% 2% 2% 2%;
+        padding: 1% 2% 1% 2%;
         border-radius: 8px;
       color: rgb(190, 30, 45);
      font-size: xx-large;
      font-family: plantagente;
     text-align: center;
     }
+    
+ul li{font-size: large;}
+ul.icon {
+    list-style-image: url('../img/icon.svg');
+    }
+
+ 
 
 footer{
     text-align: center;
@@ -177,7 +183,10 @@ footer{
 
 header{font-size: larger;}
 .baggrund2{ padding: 1% 2% 2% 2%;}
-h3{font-size: 20px;}
+h3{font-size: 22px;}
+h4{font-size: 18px;}
+.website{font-size: large;}
+ol{font-size: 17px;}
 }
 
 @media (min-width: 800px){
