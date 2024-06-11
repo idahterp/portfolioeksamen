@@ -24,15 +24,14 @@
       href="favicon_io/favicon-16x16.png"
     />
     <link rel="manifest" href="favicon_io/site.webmanifest" />
-    <script src="js/java.js"></script>
     <title>Passionsite</title>
   </head>
   <body>
     <header class="grid_1-1-1f">
       <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-          >&times;</a
-        >
+        <!-- knap til at lukke overlay navigationen -->
+        <a class="closebtn">&times;</a>
+        <!-- navigation (overlay content)-->
         <div class="overlay-content">
           <nav>
             <ul>
@@ -45,7 +44,8 @@
           </nav>
         </div>
       </div>
-      <span onclick="openNav()">Projekter</span>
+      <!-- knab til at vise overlay navigationen -->
+      <span id="openNavBtn">Projekter</span>
       <a class="logo" href="index.html"
         ><img src="img/forside.webp" alt="Logo"
       /></a>
@@ -125,5 +125,6 @@
       <p>2024</p>
       <p>Ida Holm Terp</p>
     </footer>
+    <script src="js/java.js"></script>
   </body>
 </html>
