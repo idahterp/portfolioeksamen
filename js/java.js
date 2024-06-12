@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("load", function() {
     // Funktion til at åbne navigationen
     function openNav() {
         document.getElementById("myNav").style.width = "25%";
